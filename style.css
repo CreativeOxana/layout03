@@ -71,6 +71,12 @@ aside> :last-child,
 	- 1000px
 */
 
+.reklamy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 @media (min-width: 640px) and (max-width: 999px) {
   .obsah {
     display: flex;
@@ -79,10 +85,6 @@ aside> :last-child,
 
   .reklama1 {
     flex-basis: 40%;
-  }
-
-  .reklamy {
-    flex-direction: column;
   }
 
 }
@@ -104,7 +106,7 @@ aside> :last-child,
 
   .reklamy {
     display: flex;
-    gap: 20px;
+    flex-direction: row;
     flex-basis: 30%;
   }
 
